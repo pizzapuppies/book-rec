@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+	margin-top: 20vh;
+  width: 30dvw;
+  place-self: center;
+  grid-column-start: 2;
+}
+
+
+.grid-2-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+.grid-3-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+	width:100%;
+    
+}
+
+.book-img{
+  max-height:80%;
+  max-width: 50%;
+  display: block;
+  margin-left: 10px;
+  place-self: center; 
+}
+
+.book-card{
+  padding-top: 10px;
+  background-color: #f2f2f2;
+  color:#00B4CC;
+  text-decoration:none;
+  border-radius: 5px 5px 5px 5px;
+  margin: 10px 0 0 0;
+  height: 300px;
+  font-size: 20px;
+}
+
+.book-card:hover{
+  background-color: #d9d9d9;
+}
+
+.flex-col{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+

@@ -1,0 +1,27 @@
+{% extends "master.html" %}
+
+{% block title %}
+   main page
+{% endblock %}
+
+
+{% block content %}
+
+  
+ <div>
+	{% for book in books %}
+      <a href="https://www.google.com/search?q={{book.title}}"  target ="_blank" class="grid-2-container book-card">
+		
+			<img  alt ={{ book.title }} class ="book-img" src = {{book.image}}/> 
+		
+		<div class="flex-col"> 
+			<p >author:{{book.author}}</p>
+			<p>publisher:{{book.publisher}}</p>
+			<p>year:{{book.release_year}}</p>
+			<p>isbn:{{book.isbn}}</p>
+		</div>
+	</a>
+	{% endfor %}
+</div>
+
+{% endblock %}

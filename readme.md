@@ -1,0 +1,1 @@
+This is a project i build to practice using django. I build a site that uses [https://www.kaggle.com/datasets/somnambwl/bookcrossing-dataset](book crossing dataset) to recommend 5 books you might enjoy based on the isbn of your favourite book. 
