@@ -15,7 +15,7 @@ open the virtual enviroment
 
 `./Scripts/activate` 
 
-then change the direcoty to mysite
+then change the directory to mysite
 
 `cd mysite`
 
