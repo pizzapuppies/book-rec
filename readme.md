@@ -13,13 +13,13 @@ how to run this:
 
 open the virtual enviroment 
 
->`./Scripts/activate` 
+`./Scripts/activate` 
 
 then change the direcoty to mysite
 
->`cd mysite`
+`cd mysite`
 
 then run the server using this command 
 
->`python.exe  manage.py runserver`
+`python.exe  manage.py runserver`
 
